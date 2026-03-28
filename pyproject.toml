@@ -1,0 +1,18 @@
+[project]
+name = "datascienceclass"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[tool.uv.workspace]
+members = [
+    "numpyAndPandas",
+    "TitanicDatasetAnalysis",
+    ".venv/jupyternotebook04",
+    "day05Outliers",
+    "day06Scaling",
+]
