@@ -15,4 +15,6 @@ members = [
     ".venv/jupyternotebook04",
     "day05Outliers",
     "day06Scaling",
+    "day07Correlation",
+    "day08FastAPIStreamlit",
 ]
